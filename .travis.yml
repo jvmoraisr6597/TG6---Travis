@@ -1,5 +1,5 @@
 language: java
 jdk: openjdk17
-before_script: chmod 0555 ./src/test/java/com/mackenzie/tg6/TestTG6.java
+before_script: chmod 555 ./src/test/java/com/mackenzie/tg6/TestTG6.java ./src/main/java/com/mackenzie/tg6/TG6.java ./src/main/java/com/mackenzie/tg6/models/Cliente.java
 script:
 - ./src/test/java/com/mackenzie/tg6/TestTG6.java
