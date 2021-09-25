@@ -1,4 +1,5 @@
 language: java
 jdk: openjdk17
+before_script: chmod 0555 ./src
 script:
 - ./src/test/java/com/mackenzie/tg6/TestTG6.java
