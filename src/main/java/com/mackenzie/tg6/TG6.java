@@ -1,7 +1,5 @@
 package com.mackenzie.tg6;
 
-import java.util.Scanner;
-
 import com.mackenzie.tg6.models.Cliente;
 
 /**
