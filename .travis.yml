@@ -4,5 +4,5 @@ sudo: false
 env:
   global:
     - CODECOV_TOKEN='41e841f6-3803-444a-879b-21246d1e1a63'
-after_save:
+after_success:
   - bash <(curl -s https://codecov.io/bash)
