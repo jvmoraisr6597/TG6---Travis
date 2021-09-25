@@ -1,5 +1,4 @@
 language: java
 jdk: openjdk17
-
-script:
-- ./src/test/java/com/mackenzie/tg6/TestTG6.java
+sudo: false
+script: mvn clean verify
