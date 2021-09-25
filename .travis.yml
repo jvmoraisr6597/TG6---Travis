@@ -1,9 +1,10 @@
 language: java
 jdk: openjdk17
 sudo: false
-script: "mvn cobertura:cobertura"
 env:
   global:
     - CODECOV_TOKEN='41e841f6-3803-444a-879b-21246d1e1a63'
+screipt:
+  - bash <(curl -s https://codecov.io/bash)
 after_success:
   - bash <(curl -s https://codecov.io/bash)
