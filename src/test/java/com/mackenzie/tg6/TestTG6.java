@@ -1,10 +1,12 @@
 package com.mackenzie.tg6;
 
-import static org.junit.Assert.assertEquals;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import com.mackenzie.tg6.models.Cliente;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
+
 
 public class TestTG6 {
     @Test
