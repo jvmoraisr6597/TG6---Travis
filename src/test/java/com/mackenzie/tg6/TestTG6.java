@@ -64,7 +64,8 @@ public class TestTG6 {
     @Test
     public void CT10(){
         String negado = "Empréstimo Negado";
-        assertEquals(negado, TG6.liberarEmprestimo(new Cliente(950, true, true)));
+        String liberado = "Empréstimo Concedido";
+        assertEquals(liberado, TG6.liberarEmprestimo(new Cliente(950, true, true)));
 
     }
 }
